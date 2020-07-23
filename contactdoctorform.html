@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact us form validation using Javascript</title>
+<link rel="stylesheet" href="css/style6.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<script src="script6.js"></script>
+</head>
+<body>
+	<header>
+		<ul>
+			<div class="topnav">
+				<a  href="index.html">Home</a>
+				<a href="intro.html">About</a>
+				<a href="doclognin.html">Doctor login</a>
+        <a href="list.html">patients login</a>
+        <a href="#">Contact doctor</a>
+				<a href="project.html">project</a>
+        <a href="contact.html">Contact us</a>
+			  </div>
+
+		</ul>
+<div class="wrapper">
+<h2>contact Doctor</h2>
+<div id="error_messsage"></div>
+<form id="myform" onsubmit="return validation()">
+<div class="input_field">
+<input type="text" placeholder="Name" id="name">
+</div>
+
+
+<div class="input_field">
+<input type="text" placeholder="Doctor Name" id="subject">
+</div>
+<div class="input_field">
+<input type="text" placeholder="speacialized In" id="phone">
+</div>
+<div class="input_field">
+<input type="text" placeholder="Pnone Number" id="email">
+</div>
+<div class="input_field">
+<textarea id="message" placeholder="Your Problem"></textarea>
+</div>
+<div class="input_field">
+<textarea id="message" placeholder="Message"></textarea>
+</div>
+<div class="btn">
+<input type="submit" >
+</div>
+</form>
+</div>
+</body>
+</html>
